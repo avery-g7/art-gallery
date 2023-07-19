@@ -1,14 +1,14 @@
 
 /* HOMEPAGE STYLES */
-body, html {
+.background {
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
-    background-image: url('art/golden\ city.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url('art/golden\ city.jpg');
 }
 
 h1, h2 {
@@ -42,8 +42,21 @@ h1, h2 {
     border: 4px solid black;
 }
 
-.gallery {
+.button {
     margin-top: 3%;
+}
+
+/* GALLERY STYLES */
+#images {
+    margin: 0;
+    padding: 0;
+}
+/* figure out how to make flexbox work with figures or just dont use figures and use divs */
+.gallery {
+    width: 20%;
+    border: 5px solid black;
+    margin: 0;
+    padding: 0;
 }
 
 @media (max-width: 450px) {
