@@ -1,4 +1,6 @@
-body,html {
+
+/* HOMEPAGE STYLES */
+body, html {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -31,7 +33,7 @@ h1, h2 {
     gap: 10%;
     justify-content: center;
     flex-wrap: wrap;
-    padding-top: 20%;
+    padding-top: 400px;
 }
 
 .card {
@@ -40,12 +42,20 @@ h1, h2 {
     border: 4px solid black;
 }
 
+.gallery {
+    margin-top: 3%;
+}
+
 @media (max-width: 450px) {
-    
+    h1, h2 {
+        color: rgb(245, 218, 218);
+        font-size: 24px;
+    }
+
     .card {
         width: 20%;
     }
-    .container{
-        padding-top: 90%;
+    #container{
+        padding-top: 300px;
     } 
 }
