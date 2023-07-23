@@ -5,7 +5,6 @@ let topBtn = document.querySelector('.topBtn');
 //button that goes back to the top of the page when clicked
 window.onscroll = function() {
     scrollFunction()
-    scroll()
 };
 
 function scrollFunction() {
@@ -15,6 +14,7 @@ function scrollFunction() {
         topBtn.style.display = "none";
     };
 };
+
 topBtn.addEventListener("click", toTop);
 
 function toTop() {
