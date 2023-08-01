@@ -97,6 +97,32 @@
 
             </figure>
         </div>
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Contact</button>
+        <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <form action="https://formspree.io/f/mvojzaer" method="POST">
+                <fieldset>
+                    <legend>Contact Me!</legend>
+
+                    <label for="name">Name</label>
+                    <input type="text" class="info" id="name" name="name" placeholder="Enter your name" required>
+
+                    <label for="email">Email</label>
+                    <input type="text" class="info" id="email" name="email" placeholder="Enter your email" required>
+
+                    <label for="message">Message</label>
+                    <input type="text" class="info" id="message" name="message" placeholder="Enter message" required>
+                    
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </div>
+        </div>
+        <!-- isaac.b.barber@gmail.com -->
         <button class="topBtn"> ^ </button>
     </body>
 </html>
